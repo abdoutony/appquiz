@@ -1,0 +1,46 @@
+h1,h2,h3,h4,h5,h6{
+    font-family: "Palanquin Dark", sans-serif;
+
+}
+
+p,span,div,button{
+    font-family: "Quicksand", sans-serif;
+}
+#app{
+    height:100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #111040;
+}
+
+
+.question-r-t{
+    padding-top: 35px;
+}
+
+.questionblock{
+    padding:10px;
+    text-align: center;
+    width:70%;
+    border-radius: 50px;
+    background-color: #f2f2f2;
+    height: 70px;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    margin: auto;
+}
+
+.inputcontainer{
+    width: 150px;
+    background-color: #f2f2f2;
+    padding: 10px;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.inputcontainer:nth-child(1){
+    border-right: 1px solid;
+}
+
